@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "544357347852",
+    "firebase_url": "https://pitchu-7fbda.firebaseio.com",
+    "project_id": "pitchu-7fbda",
+    "storage_bucket": "pitchu-7fbda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544357347852:android:490c69a5e449b9ed",
+        "android_client_info": {
+          "package_name": "com.app.sharma.pitchu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544357347852-3a0b5v6e4019m9rji3rdc8334enabesi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.sharma.pitchu",
+            "certificate_hash": "567356a926edf27532edada54b837e8168a72dbf"
+          }
+        },
+        {
+          "client_id": "544357347852-m91gsimf9jaf8l5b3o42vpr2bfh5e9j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSXAq6qfGjGjIfh0mMpOcPYkL27HFAt_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544357347852-m91gsimf9jaf8l5b3o42vpr2bfh5e9j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

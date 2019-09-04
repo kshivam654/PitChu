@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fa6806"
+    android:orientation="vertical"
+    tools:context="com.app.sharma.pitchu.MainActivity">
+
+
+    <pl.bclogic.pulsator4droid.library.PulsatorLayout
+        android:id="@+id/pulsator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pulse_color="#eacd10"
+        app:pulse_count="4"
+        app:pulse_duration="7000"
+        app:pulse_interpolator="Linear"
+        app:pulse_repeat="0"
+        app:pulse_startFromScratch="false">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:text="PitChu"
+            android:textColor="#f5cc17"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/touch"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/touch" />
+
+    </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+
+</LinearLayout>
